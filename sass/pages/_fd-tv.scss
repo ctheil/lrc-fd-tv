@@ -1,3 +1,6 @@
+/////////////////
+//SECTION STYLING
+/////////////////
 .fd-tv__section {
   // background-color: #403641;
   background-image: linear-gradient(rgba(#000, 0.5));
@@ -7,26 +10,6 @@
   align-items: center;
   justify-content: center;
 }
-// .fd-tv__section::before {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-image: linear-gradient($color-pink, $color-secondary);
-//   clip-path: circle(30% at right 70%);
-// }
-// .fd-tv__section::after {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-image: linear-gradient(to left, $color-primary, $color-teal);
-//   clip-path: circle(20% at 10% 10%);
-// }
 
 .tv-container {
   position: relative;
@@ -36,6 +19,10 @@
   flex-wrap: wrap;
   z-index: 1;
 }
+
+/////////////////
+//GLASSMORPHIA STYLING STYLING
+/////////////////
 
 .tv-container .tv-card {
   position: relative;
@@ -133,3 +120,7 @@
 // .heading-tertiary--tv {
 //   color: $color-black !important;
 // }
+
+/////////////////
+//BG VIDEO STYLING
+/////////////////
