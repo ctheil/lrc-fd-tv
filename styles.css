@@ -1,3 +1,21 @@
+/* BASE */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.618;
+  color: var(--color-grey-dark);
+  box-sizing: border-box;
+}
+
 :root {
   /* Basic Colors */
   --color-primary: #91cf96;
@@ -86,32 +104,6 @@
   top: 2rem;
   left: 2rem;
 }
-.tv-content__header h3 {
-  color: var(--color-primary) !important;
-}
-
-.tv-container .tv-card .tv-content h2 {
-  position: absolute;
-  top: -76px;
-  right: -19px;
-  font-size: 20rem;
-  color: rgba(255, 255, 255, 0.05) !important;
-  font-weight: 700;
-  pointer-events: none;
-}
-
-.tv-container .tv-card .tv-content h3 {
-  font-size: 5rem;
-  color: #fff;
-  font-weight: 300;
-  z-index: 1;
-  text-align: left;
-}
-
-.tv-container .tv-card .tv-content p {
-  color: #fff !important;
-  font-size: 2.4rem;
-}
 
 .tv-card__info {
   display: flex;
@@ -168,13 +160,13 @@
 
 .heading-primary__fd-tv {
   font-size: 10rem;
-  -webkit-text-stroke: 2px rgba(white, 0.3);
-  -webkit-text-fill-color: rgba(#fff, 0.1);
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.5);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   /* backdrop-filter: blur(5px); */
 }
 
-.heading-secondary__fd-tv {
+/* .heading-secondary__fd-tv {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 100;
@@ -184,6 +176,33 @@
   display: inline-block;
 
   letter-spacing: 0.2rem;
+} */
+
+.tv-content__header h3 {
+  color: var(--color-primary) !important;
+}
+
+.tv-container .tv-card .tv-content h2 {
+  position: absolute;
+  top: -76px;
+  right: -19px;
+  font-size: 20rem;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.tv-container .tv-card .tv-content h3 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 300;
+  z-index: 1;
+  text-align: left;
+}
+
+.tv-container .tv-card .tv-content p {
+  color: #fff !important;
+  font-size: 2.4rem;
 }
 
 /* // .heading-tertiary--tv {
